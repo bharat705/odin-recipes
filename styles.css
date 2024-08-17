@@ -19,6 +19,7 @@ a {
 .head {
     font-size: 48px;
     text-align: center;
+    padding: 32px;
 }
 
 .subhead {
@@ -28,10 +29,26 @@ a {
 
 .link {
     list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
 }
 
 .recipes {
+    display: block;
     font-size: 36px;
     font-stretch: expanded;
-    color: #20094b;
+    color: #ffffff;
+    margin: 0px 8px;
+    padding: 8px;
+    text-align: center;
+    background-color: #000000;
+}
+
+.recipes:hover {
+    background-color: #3b6975;
 }
